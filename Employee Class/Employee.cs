@@ -23,7 +23,10 @@ namespace Employee_Class
 
         public Employee(string name, int idNumber)
         {
-
+            empName = name;
+            empID = idNumber;
+            empDept = "";
+            empPosition = "";
         }
 
         public Employee()
