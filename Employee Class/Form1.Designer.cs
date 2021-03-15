@@ -56,7 +56,7 @@ namespace Employee_Class
             // 
             // nameBox
             // 
-            this.nameBox.Controls.Add(this.idLabel);
+            this.nameBox.Controls.Add(this.nameLabel);
             this.nameBox.Location = new System.Drawing.Point(12, 25);
             this.nameBox.Name = "nameBox";
             this.nameBox.Size = new System.Drawing.Size(185, 350);
@@ -66,7 +66,7 @@ namespace Employee_Class
             // 
             // idBox
             // 
-            this.idBox.Controls.Add(this.nameLabel);
+            this.idBox.Controls.Add(this.idLabel);
             this.idBox.Location = new System.Drawing.Point(203, 25);
             this.idBox.Name = "idBox";
             this.idBox.Size = new System.Drawing.Size(185, 350);
@@ -106,7 +106,7 @@ namespace Employee_Class
             // idLabel
             // 
             this.idLabel.AutoSize = true;
-            this.idLabel.Location = new System.Drawing.Point(6, 68);
+            this.idLabel.Location = new System.Drawing.Point(0, 68);
             this.idLabel.Name = "idLabel";
             this.idLabel.Size = new System.Drawing.Size(22, 260);
             this.idLabel.TabIndex = 1;
@@ -141,7 +141,7 @@ namespace Employee_Class
             this.Controls.Add(this.nameBox);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Employee Information";
             this.nameBox.ResumeLayout(false);
             this.nameBox.PerformLayout();
             this.idBox.ResumeLayout(false);
