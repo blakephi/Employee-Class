@@ -17,5 +17,10 @@ namespace Employee_Class
         {
 
         }
+
+        public Employee(string name, int idNumber)
+        {
+
+        }
     }
 }
