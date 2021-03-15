@@ -31,7 +31,10 @@ namespace Employee_Class
 
         public Employee()
         {
-
+            empName = "";
+            empID = 0;
+            empDept = "";
+            empPosition = "";
         }
     }
 }
