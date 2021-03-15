@@ -12,5 +12,10 @@ namespace Employee_Class
         public int empID;
         public string empDept;
         public string empPosition;
+
+        public Employee(string name, int idNumber, string department, string position)
+        {
+
+        }
     }
 }
