@@ -8,5 +8,9 @@ namespace Employee_Class
 {
     class Employee
     {
+        public string empName;
+        public int empID;
+        public string empDept;
+        public string empPosition;
     }
 }
