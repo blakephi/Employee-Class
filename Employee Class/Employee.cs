@@ -22,5 +22,10 @@ namespace Employee_Class
         {
 
         }
+
+        public Employee()
+        {
+
+        }
     }
 }
