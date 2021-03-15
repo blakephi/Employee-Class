@@ -16,5 +16,12 @@ namespace Employee_Class
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Employee emp1 = new Employee();
+            Employee emp2 = new Employee();
+            Employee epm3 = new Employee();
+        }
     }
 }
