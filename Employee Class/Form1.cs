@@ -23,6 +23,11 @@ namespace Employee_Class
             Employee emp2 = new Employee();
             Employee epm3 = new Employee();
 
+            emp1.empName = "Susan Meyers";
+            emp1.empID = 47899;
+            emp1.empDept = "Accounting";
+            emp1.empPosition = "Vice President";
+
 
         }
     }
