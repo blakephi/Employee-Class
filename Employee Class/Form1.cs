@@ -20,13 +20,22 @@ namespace Employee_Class
         private void button1_Click(object sender, EventArgs e)
         {
             Employee emp1 = new Employee();
-            Employee emp2 = new Employee();
-            Employee epm3 = new Employee();
+            emp1.Name = "Susan Meyers";
+            emp1.ID = 47899;
+            emp1.Department = "Accounting";
+            emp1.Position = "Vice President";
 
-            emp1.empName = "Susan Meyers";
-            emp1.empID = 47899;
-            emp1.empDept = "Accounting";
-            emp1.empPosition = "Vice President";
+            Employee emp2 = new Employee();
+            emp1.Name = "Mark Jones";
+            emp1.ID = 39119;
+            emp1.Department = "IT";
+            emp1.Position = "Programmer";
+
+            Employee emp3 = new Employee();
+            emp1.Name = "Joy Rogers";
+            emp1.ID = 81774;
+            emp1.Department = "Manufacturing";
+            emp1.Position = "Engineer";
 
 
         }
