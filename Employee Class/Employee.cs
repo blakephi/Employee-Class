@@ -13,18 +13,23 @@ namespace Employee_Class
         public string empDept;
         public string empPosition;
 
+        public string Name { get; set; }
+        public int ID { get; set; }
+        public string Department { get; set; }
+        public string Position { get; set; }
+
         public Employee(string name, int idNumber, string department, string position)
         {
-            empName = name;
-            empID = idNumber;
-            empDept = department;
-            empPosition = position;
+            empName = Name;
+            empID = ID;
+            empDept = Department;
+            empPosition = Position;
         }
 
         public Employee(string name, int idNumber)
         {
-            empName = name;
-            empID = idNumber;
+            empName = Name;
+            empID = ID;
             empDept = "";
             empPosition = "";
         }
