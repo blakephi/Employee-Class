@@ -8,38 +8,33 @@ namespace Employee_Class
 {
     class Employee
     {
-        public string empName;
-        public int empID;
-        public string empDept;
-        public string empPosition;
-
         public string Name { get; set; }
         public int ID { get; set; }
         public string Department { get; set; }
         public string Position { get; set; }
 
-        public Employee(string name, int idNumber, string department, string position)
+        public Employee(string Name, int ID, string Department, string Pposition)
         {
-            empName = Name;
-            empID = ID;
-            empDept = Department;
-            empPosition = Position;
+            this.Name = Name;
+            this.ID = ID;
+            this.Department = Department;
+            this.Position = Position;
         }
 
         public Employee(string name, int idNumber)
         {
-            empName = Name;
-            empID = ID;
-            empDept = "";
-            empPosition = "";
+            this.Name = Name;
+            this.ID = ID;
+            this.Department = "";
+            this.Position = "";
         }
 
         public Employee()
         {
-            empName = "";
-            empID = 0;
-            empDept = "";
-            empPosition = "";
+            this.Name = "";
+            this.ID = 0;
+            this.Department = "";
+            this.Position = "";
         }
     }
 }
